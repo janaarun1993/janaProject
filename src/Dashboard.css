@@ -1,0 +1,19 @@
+.card-container {
+    display:flex;
+  }
+
+  .card-button{
+      display: flex;
+      justify-content: right;
+  }
+  button[type="submit"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #4caf50;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }

@@ -1,0 +1,43 @@
+.signup-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .signup-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  .input-label {
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-field {
+    margin-left: 0.5rem;
+  }
+  
+  .submit-button {
+    background-color: #0077cc;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+  }
+
+  .input-password{
+      margin-left: 0.8rem;
+  }
+
+  .input-email{
+      margin-left: 2.55rem;
+  }
+
+  .signup-button{
+      display: flex;
+      justify-content: right;
+  }
